@@ -7,7 +7,7 @@ const BmiControlsx: React.FC<{
     onReset: () => void
 }> = ({ onCalculate, onReset }) => {
     return (
-        <IonRow>
+        <IonRow style={{ maxWidth: 800, margin: '0 auto' }}>
             <IonCol className='ion-text-left'>
                 <IonButton onClick={onCalculate}>
                     <IonIcon slot="start" icon={calculatorOutline} />
@@ -17,7 +17,7 @@ const BmiControlsx: React.FC<{
 
             <IonCol className='ion-text-right'>
                 <IonButton onClick={onReset} fill="outline">
-                    <IonIcon slot="start" icon={refreshOutline} />
+                    <IonIcon slot="end" icon={refreshOutline} />
                     Reset
                 </IonButton>
             </IonCol>

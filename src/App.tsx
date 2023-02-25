@@ -94,7 +94,7 @@ const App: React.FC = () => {
 
 
 
-      <IonHeader>
+      <IonHeader className='ion-text-center'>
         <IonToolbar color="primary">
           <IonTitle>
             Calculateur d'IMC
@@ -111,7 +111,7 @@ const App: React.FC = () => {
 
           <IonRow>
             <IonCol>
-              <IonItem>
+              <IonItem style={{ maxWidth: 800, margin: '0 auto' }}>
                 <IonLabel position="floating">Entre ta taille ({selectedUnits === 'mkg' ? 'mètres' : 'feet'})</IonLabel>
                 <IonInput
                   type='number'
@@ -124,7 +124,7 @@ const App: React.FC = () => {
 
           <IonRow>
             <IonCol>
-              <IonItem>
+              <IonItem style={{ maxWidth: 800, margin: '0 auto' }}>
                 <IonLabel position="floating">Entre ton poids ({selectedUnits === 'mkg' ? 'kg' : 'lbs'})</IonLabel>
                 <IonInput
                   type='number'
@@ -135,6 +135,7 @@ const App: React.FC = () => {
           </IonRow>
 
           <BmiControlsx onCalculate={calculateBMI} onReset={resetInputs} />
+
           {result &&
             <BmiResult result={result} />
           }
