@@ -18,7 +18,7 @@ const BmiControlsx: React.FC<{
             <IonCol className='ion-text-right'>
                 <IonButton onClick={onReset} fill="outline">
                     <IonIcon slot="start" icon={refreshOutline} />
-                    Effacer
+                    Reset
                 </IonButton>
             </IonCol>
         </IonRow>
