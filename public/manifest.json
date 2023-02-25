@@ -1,14 +1,14 @@
 {
-  "short_name": "Ionic App",
-  "name": "My Ionic App",
+  "short_name": "Little Ionic BMI calculator",
+  "name": "My Little Ionic BMI calculator",
   "icons": [
     {
-      "src": "assets/icon/favicon.png",
+      "src": "https://w7.pngwing.com/pngs/235/872/png-transparent-react-computer-icons-redux-javascript-others-logo-symmetry-nodejs-thumbnail.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "assets/icon/icon.png",
+      "src": "https://w7.pngwing.com/pngs/235/872/png-transparent-react-computer-icons-redux-javascript-others-logo-symmetry-nodejs-thumbnail.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
