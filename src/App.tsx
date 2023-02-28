@@ -8,8 +8,6 @@ import {
   IonItem,
   IonLabel,
   IonRow,
-  IonSegment,
-  IonSegmentButton,
   IonTitle,
   IonToolbar,
   setupIonicReact,
